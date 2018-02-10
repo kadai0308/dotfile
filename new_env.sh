@@ -64,6 +64,7 @@ defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 60 '
     </dict>
   </dict>
 '
+
 # trackpad
 defaults write com.apple.AppleMultitouchTrackpad ActuateDetents -int 1
 defaults write com.apple.AppleMultitouchTrackpad ActuationStrength -int 1
