@@ -64,7 +64,26 @@ defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 60 '
   </dict>
 '
 # trackpad
-defaults write com.apple.AppleMultitouchTrackpad Clicking -int 1
+defaults write com.apple.AppleMultitouchTrackpad ActuateDetents -int 1;
+defaults write com.apple.AppleMultitouchTrackpad ActuationStrength -int 1;
+defaults write com.apple.AppleMultitouchTrackpad Clicking -int 1;
+defaults write com.apple.AppleMultitouchTrackpad FirstClickThreshold -int 1;
+defaults write com.apple.AppleMultitouchTrackpad SecondClickThreshold -int 1;
+defaults write com.apple.AppleMultitouchTrackpad TrackpadFiveFingerPinchGesture -int 2;
+defaults write com.apple.AppleMultitouchTrackpad TrackpadFourFingerHorizSwipeGesture -int 2;
+defaults write com.apple.AppleMultitouchTrackpad TrackpadFourFingerPinchGesture -int 2;
+defaults write com.apple.AppleMultitouchTrackpad TrackpadFourFingerVertSwipeGesture -int 2;
+defaults write com.apple.AppleMultitouchTrackpad TrackpadHandResting -int 1;
+defaults write com.apple.AppleMultitouchTrackpad TrackpadHorizScroll -int 1;
+defaults write com.apple.AppleMultitouchTrackpad TrackpadMomentumScroll -int 1;
+defaults write com.apple.AppleMultitouchTrackpad TrackpadPinch -int 1;
+defaults write com.apple.AppleMultitouchTrackpad TrackpadRightClick -int 1;
+defaults write com.apple.AppleMultitouchTrackpad TrackpadRotate -int 1;
+defaults write com.apple.AppleMultitouchTrackpad TrackpadScroll -int 1;
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -int 1;
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerTapGesture -int 2;
+defaults write com.apple.AppleMultitouchTrackpad TrackpadTwoFingerDoubleTapGesture -int 1;
+defaults write com.apple.AppleMultitouchTrackpad TrackpadTwoFingerFromRightEdgeSwipeGesture -int 3;
 
 # dock
 defaults write com.apple.dock orientation -string left
