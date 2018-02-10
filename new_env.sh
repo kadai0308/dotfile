@@ -10,6 +10,9 @@ cp -r /Volumes/Google\ Chrome\ Incognito/Google\ Chrome\ Incognito.app /Applicat
 sudo hdiutil detach /Volumes/Google\ Chrome\ Incognito/
 rm $HOME/Downloads/GoogleChromeIncognito_v0.0.4.dmg
 
+# copy dotfiles to home
+cp -r .* $HOME/
+
 # install brew
 ./install_brew.sh
 
