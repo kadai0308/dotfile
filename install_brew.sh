@@ -22,8 +22,3 @@ brew install wget
 brew install vim
 brew install unrar
 brew install sshfs
-
-# Extension for visual studio code
-code --install-extension gerane.Theme-Blackboard
-code --install-extension mshr-h.VerilogHDL
-code --install-extension mshr-h.SystemVerilog
