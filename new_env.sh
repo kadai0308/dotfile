@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# personal info of git
 git config --global user.email "kychang009@gmail.com"
 
 # install Google Chrome Incognito
