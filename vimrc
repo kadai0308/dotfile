@@ -1,3 +1,4 @@
+set ls=2
 set nocompatible
 set number
 set ruler
