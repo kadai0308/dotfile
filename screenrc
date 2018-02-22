@@ -1,0 +1,63 @@
+# Start message
+startup_message off
+
+# Set hardstatus always on
+#hardstatus alwayslastline " %-Lw%{= Bw}%n%f %t%{-}%+Lw %=| %M %d %0c:%s "
+
+# Style 1
+#caption always "%{= wk} %{= KY} [%n]%t @ %H %{-} %= %{= KR} %l %{-} |%{= KG} %Y-%m-%d %{-} "
+#hardstatus alwayslastline " %-Lw%{= Bw}%n%f %t%{-}%+Lw %=| %0c:%s "
+
+# Style 2
+#caption always "%{=u .G} %-w%<%{=ub .y}%n %t%{=u .G}%+w "
+#hardstatus alwaysignore
+#hardstatus alwayslastline "%{= .K} [%l]%<%=%{= .W}@%H %=%{= .y} %Y/%m/%d%{= .m} %0c:%s "
+
+# Style 3
+caption always "%{=u .G} %-w%<%{=ub .y}%n %t%{=u .G}%+w "
+hardstatus alwaysignore
+hardstatus alwayslastline "%{= .K} [%l]%<%=%{= .W}@%H %=%{= .y} %Y/%m/%d%{= .m} %C %A"
+
+# Style 4
+#caption always "%{=u .G} %-w%<%{=ub .y}%n %t%{=u .G}%+w "
+#hardstatus alwayslastline "%{= wk} %{by} %H %{wk} | %-Lw%{kw}.%{= g}%n%f* %t%{wk}.%{wk}%+Lw%< %= %{kw}.%{= R} [%m/%d %c] %{-}"
+
+# Set default encoding using utf8
+defutf8 on
+
+# Refresh the display when exiting programs
+altscreen on
+
+# Dynamic title
+shelltitle '$ |Page'
+
+# Disable vbell
+vbell off
+
+# Keboard binding
+# bind F11 to move to previous window
+bindkey -k F1 prev
+# bind F12 to move to next window
+bindkey -k F2 next 
+# bind Alt`~= to screen0~12
+bindkey "^[`" select 0
+bindkey "^[1" select 1
+bindkey "^[2" select 2
+bindkey "^[3" select 3
+bindkey "^[4" select 4
+bindkey "^[5" select 5
+bindkey "^[6" select 6
+bindkey "^[7" select 7
+bindkey "^[8" select 8
+bindkey "^[9" select 9
+bindkey "^[0" select 10
+bindkey "^[-" select 11
+bindkey "^[=" select 12
+# bind F7 to kill current screen window
+bindkey -k k7 kill
+# bind F8 to rename current screen window
+bindkey -k k8 title
+# bind F9 to create a new screen
+bindkey -k k9 screen
+# bind F10 to detach screen session (to background)
+bindkey -k k; detach
