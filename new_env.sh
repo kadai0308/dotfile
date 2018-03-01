@@ -8,6 +8,8 @@ sudo hdiutil detach /Volumes/Google\ Chrome\ Incognito/
 rm $HOME/Downloads/GoogleChromeIncognito_v0.0.4.dmg
 
 # copy dotfiles to home
+cp bash_profile $HOME/.bash_profile
+cp -r config $HOME/.config
 ./copy_dotfiles.sh
 
 # install brew
