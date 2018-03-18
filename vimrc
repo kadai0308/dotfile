@@ -21,7 +21,6 @@ set encoding=utf-8
 if v:version > 703
   set relativenumber
   set colorcolumn=81
-  execute pathogen#infect()
 endif
 syntax on
 autocmd FileType make setlocal noexpandtab
