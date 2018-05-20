@@ -15,11 +15,6 @@ cp -r config $HOME/.config
 # install brew
 ./install_brew.sh
 
-# Extension for visual studio code
-code --install-extension gerane.Theme-Blackboard
-code --install-extension mshr-h.VerilogHDL
-code --install-extension mshr-h.SystemVerilog
-
 # global config
 defaults write NSGlobalDomain AppleInterfaceStyle -string Dark
 
