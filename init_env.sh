@@ -8,8 +8,9 @@ sudo hdiutil detach /Volumes/Google\ Chrome\ Incognito/
 rm $HOME/Downloads/GoogleChromeIncognito_v0.0.4.dmg
 
 # copy dotfiles to home
-cp bash_profile $HOME/.bash_profile
-cp -r config $HOME/.config
+echo 'alias s="subl ."' >> $HOME/.bash_profile
+echo 'alias o="open ."' >> $HOME/.bash_profile
+echo 'alias ll="ls -lhAF"' >> $HOME/.bash_profile
 ./copy_dotfiles.sh
 
 # install brew
@@ -88,39 +89,3 @@ defaults write com.apple.AppleMultitouchTrackpad TrackpadTwoFingerFromRightEdgeS
 defaults write com.apple.dock orientation -string left
 defaults write com.apple.dock mineffect -string scale
 defaults write com.apple.dock persistent-apps -array
-defaults write com.apple.dock persistent-apps -array-add '
-  <dict>
-    <key>tile-data</key>
-      <dict>
-        <key>file-data</key>
-          <dict>
-            <key>_CFURLString</key><string>/Applications/Mail.app</string>
-            <key>_CFURLStringType</key><integer>0</integer>
-          </dict>
-      </dict>
-  </dict>
-'
-defaults write com.apple.dock persistent-apps -array-add '
-  <dict>
-    <key>tile-data</key>
-      <dict>
-        <key>file-data</key>
-          <dict>
-            <key>_CFURLString</key><string>/Applications/iTunes.app</string>
-            <key>_CFURLStringType</key><integer>0</integer>
-          </dict>
-      </dict>
-  </dict>
-'
-defaults write com.apple.dock persistent-apps -array-add '
-  <dict>
-    <key>tile-data</key>
-      <dict>
-        <key>file-data</key>
-          <dict>
-            <key>_CFURLString</key><string>/Applications/Google Chrome Incognito.app</string>
-            <key>_CFURLStringType</key><integer>0</integer>
-          </dict>
-      </dict>
-  </dict>
-'
