@@ -10,7 +10,6 @@ brew update
 brew cask install google-chrome
 brew cask install google-backup-and-sync
 brew cask install sublime-text
-brew cask install basictex
 brew cask install mpv
 brew cask install marp
 brew cask install xquartz
