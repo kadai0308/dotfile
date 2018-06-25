@@ -14,10 +14,7 @@ brew cask install mpv
 brew cask install marp
 brew cask install xquartz
 brew cask install telegram-desktop
-brew cask install osxfuse
 
 # install apps from brew
-brew install wget
 brew install vim
 brew install unrar
-brew install sshfs
