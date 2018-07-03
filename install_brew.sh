@@ -14,6 +14,8 @@ brew cask install mpv
 brew cask install marp
 brew cask install xquartz
 brew cask install telegram-desktop
+brew cask install slack
+brew cask install skype
 
 # install apps from brew
 brew install vim
