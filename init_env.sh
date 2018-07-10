@@ -19,6 +19,9 @@ echo 'alias ll="ls -lhAF"' >> $HOME/.bash_profile
 # menu bar display
 defaults write com.apple.menuextra.battery ShowPercent -string YES
 
+# safari opens with: A new private window
+defaults write com.apple.Safari OpenPrivateWindowWhenNotRestoringSessionAtLaunch -int 1
+
 # input source
 defaults write com.apple.HIToolbox AppleEnabledInputSources -array
 defaults write com.apple.HIToolbox AppleEnabledInputSources -array-add '
