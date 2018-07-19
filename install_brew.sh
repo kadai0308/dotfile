@@ -15,8 +15,6 @@ brew cask install marp
 brew cask install xquartz
 brew cask install telegram-desktop
 brew cask install slack
-brew cask install skype
-brew cask install messenger
 
 # install apps from brew
 brew install vim
