@@ -1,12 +1,5 @@
 #!/bin/bash
 
-# install Google Chrome Incognito
-curl -o $HOME/Downloads/GoogleChromeIncognito_v0.0.4.dmg https://ente.limmat.ch/ftp/pub/software/applications/GoogleChromeIncognito/GoogleChromeIncognito_v0.0.4.dmg
-sudo hdiutil attach $HOME/Downloads/GoogleChromeIncognito_v0.0.4.dmg
-cp -r /Volumes/Google\ Chrome\ Incognito/Google\ Chrome\ Incognito.app /Applications/
-sudo hdiutil detach /Volumes/Google\ Chrome\ Incognito/
-rm $HOME/Downloads/GoogleChromeIncognito_v0.0.4.dmg
-
 # copy dotfiles to home
 echo 'alias s="subl ."' >> $HOME/.bash_profile
 echo 'alias o="open ."' >> $HOME/.bash_profile
