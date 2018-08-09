@@ -4,6 +4,7 @@
 echo 'alias s="subl ."' >> $HOME/.bash_profile
 echo 'alias o="open ."' >> $HOME/.bash_profile
 echo 'alias ll="ls -lhAF"' >> $HOME/.bash_profile
+echo 'alias ts="trans -shell -brief :zh-TW"' >> $HOME/.bash_profile
 ./copy_dotfiles.sh
 
 # install brew

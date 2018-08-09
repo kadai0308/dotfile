@@ -19,3 +19,4 @@ brew cask install slack
 # install apps from brew
 brew install vim
 brew install unrar
+brew install translate-shell
