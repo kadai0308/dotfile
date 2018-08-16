@@ -17,6 +17,7 @@ brew cask install telegram-desktop
 brew cask install slack
 
 # install apps from brew
+brew install bash-completion
 brew install vim
 brew install unrar
 brew install translate-shell
