@@ -1,0 +1,8 @@
+Host cad
+HostName nthucad.cs.nthu.edu.tw
+ForwardX11 yes
+ForwardX11Trusted yes
+Compression yes
+
+Host babe
+HostName 140.114.194.29
