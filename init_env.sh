@@ -1,11 +1,6 @@
 #!/bin/bash
 
-# copy dotfiles to home
-echo 'alias s="subl ."' >> $HOME/.bash_profile
-echo 'alias o="open ."' >> $HOME/.bash_profile
-echo 'alias ll="ls -lhAF"' >> $HOME/.bash_profile
-echo 'alias ts="trans -shell -brief :zh-TW"' >> $HOME/.bash_profile
-echo '[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion' >> $HOME/.bash_profile
+# link dotfiles to home
 ./link_dotfiles.sh
 
 # install brew
