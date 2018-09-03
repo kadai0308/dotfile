@@ -24,4 +24,3 @@ if v:version > 703
 endif
 syntax on
 autocmd FileType make setlocal noexpandtab
-colorscheme blackboard
