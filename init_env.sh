@@ -6,13 +6,6 @@
 # install brew
 ./install_brew.sh
 
-# global config
-defaults write NSGlobalDomain AppleInterfaceStyle -string Dark
-
-# terminal
-defaults write com.apple.Terminal "Default Window Settings" -string Pro
-defaults write com.apple.Terminal "Startup Window Settings" -string Pro
-
 # menu bar display
 defaults write com.apple.menuextra.battery ShowPercent -string YES
 
