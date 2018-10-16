@@ -28,4 +28,4 @@ brew install vim
 brew install unrar
 brew install translate-shell
 brew install openconnect
-
+brew install wmctrl
