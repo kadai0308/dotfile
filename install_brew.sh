@@ -10,6 +10,7 @@ sudo -v
 brew update
 
 # install apps from brew-cask
+brew cask install firefox
 brew cask install google-backup-and-sync
 brew cask install sublime-text
 brew cask install mpv
