@@ -61,3 +61,6 @@ bindkey -k k8 title
 bindkey -k k9 screen
 # bind F10 to detach screen session (to background)
 bindkey -k k; detach
+
+# the shell will be started as a login-shell
+shell -$SHELL
